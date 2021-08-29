@@ -18,7 +18,9 @@ if __name__ == "__main__":
             os.remove(os.path.join(path, file))
             n += 1
     print(n)
+
     os.rename(path, path+"_not")
+
 
 
 
